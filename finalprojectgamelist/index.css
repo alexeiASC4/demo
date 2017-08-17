@@ -1,0 +1,29 @@
+body{
+  background:black;
+  color:black;
+  text-align:center;
+  margin: 0 auto;
+}
+.burger{
+    color:black;
+
+}
+p{
+color:white;
+}
+#gamechart{
+    background:black;
+    color:white;
+}
+#gamelist{
+    height:10%;
+}
+.instructions{
+    padding-top: 50px;
+    color:white;
+     padding-left: 50px; 
+    padding-right: 50px;
+}
+.instructions h3,h5,img{
+    text-align: left;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myOAuth</title>
+
+    <!--Reference platform.js library here-->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--Reference Client ID in meta tag here-->
+<meta name="google-signin-client_id" content=564066470982-5an3dhovh1ehms1i5em6fqo68e97tq0e.apps.googleusercontent.com>
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--custom files-->
+    <script src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="ats">
+        <div class="signs">
+            <a href="file:///C:/Users/ASC%20Guest/desktop/imani/final/finalprojectgamelist/index.html" class="g-signin2" data-onsuccess="onSignIn(googleUser)"> </a>
+            <a href="file:///C:/Users/ASC%20Guest/desktop/imani/final/finalprojectgamelist/index.html" class="signOut" onclick="onSignOut();">Sign out</a>
+        </div>
+
+
+        <div class ="mainContainer">
+            <!--Text greeting user-->
+            <header>
+                <h1>WELCOME <span class="userName">USER_NAME</span></h1>    
+            </header>
+
+            <!--Populate section with user data-->
+            <section>
+                <!--picture-->
+                <div class = "userImg">
+                    <img src="https://unsplash.it/100/100">
+                </div>
+
+                <!--User Data-->
+                <div class="userData">
+                    <h2>E-MAIL:</h2>
+                    <p class="email">example@example.com</p>
+                </div>
+            </section>
+        </div>
+    </div>
+  <div id="or">
+
+  </div>
+
+    <!--END OF LOGIN SECTION  -->
+    
+</body>
+</html>
