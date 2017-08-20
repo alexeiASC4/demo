@@ -55,7 +55,7 @@ function draw(){
         textSize(48);
         text("GAME OVER!",150,300);
         textSize(24);
-        text("Double click your mouse to restart!", 110, 350);
+        text("Refresh page to restart!", 170, 350);
         noLoop();
 
     }
@@ -67,17 +67,17 @@ function draw(){
     ellipse(x,y,50,50);
     
 }
-function doubleClicked(){
-    clear();
-    var x = 0;
-    var y = 0;
-    var x2 = 0;
-    var y2 = 0;
-    var x3 = 0;
-    var score = 0;
-    return false;
-}
-function restart(){
-     doubleClicked();
-     redraw();
-}
+// function doubleClicked(){
+//     clear();
+//     var x = 0;
+//     var y = 0;
+//     var x2 = 0;
+//     var y2 = 0;
+//     var x3 = 0;
+//     var score = 0;
+//     return false;
+// }
+// function restart(){
+//      doubleClicked();
+//      redraw();
+// }
