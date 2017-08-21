@@ -33,12 +33,12 @@ function draw(){
         x3+=10;
     }
     
-    if (x<=10){
+    if (x<=25){
     x2=2;
     
 }
-    else if (x>=599){
-        x2=-7;
+    else if (x>=575){
+        x2=-9;
     }
     if (y<=10){
     y2=5;
@@ -48,6 +48,7 @@ function draw(){
         y2=-11;
 
         score++;
+        
     }
     else if(y>=575){
         y2=0;
