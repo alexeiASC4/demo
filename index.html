@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AI Games</title>
     <link rel="icon" href="assets/logo1.png">
-    <!--Reference platform.js library here-->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- Reference platform.js library here
+    <script src="https://apis.google.com/js/platform.js" async defer></script> -->
 
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="endgame.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <meta name="google-signin-client_id" content="521241906301-f9c49viajijd9cnlngbfmnoki9jjernp.apps.googleusercontent.com">
+    <!-- <meta name="google-signin-client_id" content="521241906301-f9c49viajijd9cnlngbfmnoki9jjernp.apps.googleusercontent.com"> -->
 
     
     
@@ -23,7 +23,7 @@
     <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
 
     <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog" style="background-color:black;color:text;">
+    <div id="myModal" class="modal fade" role="dialog" >
         <div class="modal-dialog">
 
             <!-- Modal content-->
@@ -34,6 +34,26 @@
                 </div>
                 <div class="modal-body">
                     <p>AI Games is a game website for gamers and game developers alike. Game developers can participate in our Indie Game 500 competition where they can submit their best game for a chance of winning $500. The games of the top five finishers will appear on the website permanently. Game developers can get feedback on their games from gamers and other game developers. This website was designed to provide a fun, competitive environment for game developers to improve their skills and to encourage game development while still creating a fun place for people to play great games. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Credits</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Alexei Tulloch <br> Imani Muhammad-Graham <br>www.flaticon.com</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -80,7 +100,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="#" style="color:red">Your Profile</a></li>
                             
-                            <li><a href="#" style="color:red">Sound</a></li>
+                            <li><a href="#" style="color:red" data-toggle="modal" data-target="#myModal1">Credits</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="#" style="color:red">Logout</a></li>
                         </ul>

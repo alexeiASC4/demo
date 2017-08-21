@@ -5,12 +5,10 @@ body{
   margin: 0 auto;
 }
 .burger{
-    color:black;
+    color:white;
 
 }
-p{
-color:white;
-}
+
 #gamechart{
     background:black;
     color:white;
