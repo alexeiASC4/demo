@@ -156,14 +156,20 @@
         <hr>
         
     </div>
+
+    <div class="userContainer">
+        <form>
+            <div class="textContainer">
     <div class="burger">
+        
     <p>Name</p><input id="name">
-    <p>Game's Name</p><input id="gamename">
-    <p>Game's Url</p><input id="gamelink">
-    <p>Picture Url</p><input id="piclink">
+    <p>Game's Name</p><input id="gamename" type="text">
+    <p>Game's Url</p><input id="gamelink" type="text">
+    <p>Picture Url</p><input id="piclink" type="text">
     <div class="GObutton">
-                <input type="reset" onclick="updateDB();" value="Submit/Update">
+                <input type="reset" onclick="updateDB();" value="Submit">
             </div>
+            </form>
     <div class="update">
                 
     </div>
@@ -185,9 +191,10 @@
                 </p>
             </div>
         </footer>
-    </div>
-    <!-- <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script> -->
+    
+</div>
+      <script async src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>  
     <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
     <script>
         // Initialize Firebase
@@ -202,9 +209,13 @@
         firebase.initializeApp(config);
 
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- jQuery library -->
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="index.js" async></script>
+    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script async src="index.js"></script>
 </body>
 </html>
