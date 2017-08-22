@@ -16,6 +16,9 @@ body{
 #gamelist{
     height:10%;
 }
+#name,#gamename,#gamelink,#piclink,.GObutton{
+    color:black;
+}
 .instructions{
     padding-top: 50px;
     color:white;
@@ -25,3 +28,4 @@ body{
 .instructions h3,h5,img{
     text-align: left;
 }
+
